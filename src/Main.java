@@ -15,7 +15,7 @@ public class Main {
             System.out.println("интерация цикла " + i);
         }
         System.out.println("Задача №4");
-        for (int i = 0; i >= -10; i = i - 1) {
+        for (int i = 10; i >= -10; i = i - 1) {
             System.out.println("интерация цикла " + i);
         }
         System.out.println("Задача №5");
@@ -35,7 +35,7 @@ public class Main {
         int total = 0;
         for (int i = 0; i <= 12; i++) {
             total = total + salary;
-            System.out.println("Месяц " + salary + " сумма накоплений равна рублей " + total);
+            System.out.println("Месяц " + i + " сумма накоплений равна рублей " + total);
         }
         System.out.println("Задача №9");
         int salary1 = 29000;
@@ -43,14 +43,14 @@ public class Main {
         for (int i = 0; i <= 12; i++) {
             total1 = total1 + total1 / 120;
             total1 = total1 + salary1;
-            System.out.println("Месяц " + salary1 + " сумма накоплений равна рублей " + total1);
+            System.out.println("Месяц " + i + " сумма накоплений равна рублей " + total1);
         }
         System.out.println(total1);
 
         System.out.println("Задача №10");
         int multiplication = 2;
         int sum = 0;
-        for (int i = 1; i <= 20; i = ++ i) {
+        for (int i = 1; i <= 10; i ++) {
             sum = sum + multiplication;
             System.out.println("2 * " + i + " = " + sum);
         }
